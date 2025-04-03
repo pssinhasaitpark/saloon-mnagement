@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Haircuts & Styling",
+    "description": "Find expert hair stylists for trendy haircuts and styling.",
+    "image": "src/assets/images/Haircuts_Styling.jpg"
+  },
+  {
+    "title": "Skin Treatments",
+    "description": "Rejuvenate your skin with facials, peels, and more.",
+    "image": "src/assets/images/SkinTreatments.jpg"
+  },
+  {
+    "title": "Massages & Spa",
+    "description": "Relax with professional massages and spa treatments.",
+    "image": "src/assets/images/Massages_Spa.jpg"
+  },
+  {
+    "title": "Manicure & Pedicure",
+    "description": "Get beautiful nails with expert manicure & pedicure services.",
+    "image": "src/assets/images/Manicure_Pedicure.jpg"
+  },
+  {
+    "title": "Bridal & Makeup",
+    "description": "Book expert makeup artists for bridal and party makeup.",
+    "image": "src/assets/images/Bridal_Makeup.jpg"
+  },
+  {
+    "title": "Hair & Skin Consultation",
+    "description": "Talk to professionals about hair and skincare solutions.",
+    "image": "src/assets/images/Hair & Skin Consultation.jpg"
+  }
+]

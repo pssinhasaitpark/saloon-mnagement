@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "name": "Elite Men's Salon",
+    "type": "Male",
+    "location": "Indore",
+    "services": ["Haircut", "Hair Color"]
+  },
+  {
+    "id": 2,
+    "name": "Glamour Beauty Hub",
+    "type": "Female",
+    "location": "Indore",
+    "services": ["Facial", "Manicure"]
+  },
+  {
+    "id": 3,
+    "name": "Unisex Pro Salon",
+    "type": "Unisex",
+    "location": "Indore",
+    "services": ["Haircut", "Facial"]
+  },
+  {
+    "id": 4,
+    "name": "Men’s Grooming Lounge",
+    "type": "Male",
+    "location": "Indore",
+    "services": ["Haircut", "Pedicure"]
+  },
+  {
+    "id": 5,
+    "name": "Women’s Exclusive Spa",
+    "type": "Female",
+    "location": "Indore",
+    "services": ["Facial", "Manicure"]
+  },
+  {
+    "id": 6,
+    "name": "Luxury Hair Studio",
+    "type": "Unisex",
+    "location": "Mumbai",
+    "services": ["Haircut", "Hair Color"]
+  },
+  {
+    "id": 7,
+    "name": "The Beauty Retreat",
+    "type": "Female",
+    "location": "Delhi",
+    "services": ["Facial", "Pedicure"]
+  },
+  {
+    "id": 8,
+    "name": "Classic Barber House",
+    "type": "Male",
+    "location": "Pune",
+    "services": ["Haircut", "Shaving"]
+  },
+  {
+    "id": 9,
+    "name": "Trendy Looks Salon",
+    "type": "Unisex",
+    "location": "Bangalore",
+    "services": ["Haircut", "Manicure", "Pedicure"]
+  },
+  {
+    "id": 10,
+    "name": "Royal Touch Beauty Spa",
+    "type": "Female",
+    "location": "Hyderabad",
+    "services": ["Facial", "Manicure", "Hair Color"]
+  },
+  {
+    "id": 11,
+    "name": "Majestic Gents Salon",
+    "type": "Male",
+    "location": "Chennai",
+    "services": ["Haircut", "Shaving", "Facial"]
+  },
+  {
+    "id": 12,
+    "name": "The Chic Hair Lounge",
+    "type": "Unisex",
+    "location": "Kolkata",
+    "services": ["Haircut", "Hair Color", "Pedicure"]
+  },
+  {
+    "id": 13,
+    "name": "Glow & Glam Salon",
+    "type": "Female",
+    "location": "Jaipur",
+    "services": ["Facial", "Manicure"]
+  },
+  {
+    "id": 14,
+    "name": "Urban Gents Grooming",
+    "type": "Male",
+    "location": "Surat",
+    "services": ["Haircut", "Beard Trim", "Shaving"]
+  },
+  {
+    "id": 15,
+    "name": "Velvet Touch Spa",
+    "type": "Unisex",
+    "location": "Lucknow",
+    "services": ["Facial", "Haircut", "Pedicure"]
+  },
+  {
+    "id": 16,
+    "name": "Royal Women’s Salon",
+    "type": "Female",
+    "location": "Ahmedabad",
+    "services": ["Facial", "Manicure", "Pedicure"]
+  },
+  {
+    "id": 17,
+    "name": "Golden Crown Barber",
+    "type": "Male",
+    "location": "Chandigarh",
+    "services": ["Haircut", "Shaving", "Beard Trim"]
+  },
+  {
+    "id": 18,
+    "name": "Blush & Beauty Studio",
+    "type": "Female",
+    "location": "Bhopal",
+    "services": ["Facial", "Hair Color", "Manicure"]
+  },
+  {
+    "id": 19,
+    "name": "Gentlemen’s Lounge",
+    "type": "Male",
+    "location": "Nagpur",
+    "services": ["Haircut", "Shaving", "Pedicure"]
+  },
+  {
+    "id": 20,
+    "name": "Urban Trend Salon",
+    "type": "Unisex",
+    "location": "Coimbatore",
+    "services": ["Haircut", "Manicure", "Hair Color"]
+  },
+  {
+    "id": 21,
+    "name": "Prestige Hair Studio",
+    "type": "Unisex",
+    "location": "Mumbai",
+    "services": ["Haircut", "Hair Color", "Manicure"]
+  },
+  {
+    "id": 22,
+    "name": "Elite Beauty & Spa",
+    "type": "Female",
+    "location": "Delhi",
+    "services": ["Facial", "Manicure", "Pedicure"]
+  },
+  {
+    "id": 23,
+    "name": "Gents Classic Salon",
+    "type": "Male",
+    "location": "Pune",
+    "services": ["Haircut", "Beard Trim", "Shaving"]
+  },
+  {
+    "id": 24,
+    "name": "Luxury Glow Salon",
+    "type": "Female",
+    "location": "Bangalore",
+    "services": ["Facial", "Hair Color", "Manicure"]
+  },
+  {
+    "id": 25,
+    "name": "Ultimate Style Lounge",
+    "type": "Unisex",
+    "location": "Hyderabad",
+    "services": ["Haircut", "Hair Color", "Pedicure"]
+  },
+  {
+    "id": 26,
+    "name": "Timeless Beauty Hub",
+    "type": "Female",
+    "location": "Chennai",
+    "services": ["Facial", "Pedicure", "Manicure"]
+  },
+  {
+    "id": 27,
+    "name": "Royal Barber Studio",
+    "type": "Male",
+    "location": "Kolkata",
+    "services": ["Haircut", "Beard Trim", "Shaving"]
+  },
+  {
+    "id": 28,
+    "name": "Trendy Touch Salon",
+    "type": "Unisex",
+    "location": "Jaipur",
+    "services": ["Haircut", "Facial", "Hair Color"]
+  },
+  {
+    "id": 29,
+    "name": "Chic Women’s Lounge",
+    "type": "Female",
+    "location": "Surat",
+    "services": ["Facial", "Manicure", "Pedicure"]
+  },
+  {
+    "id": 30,
+    "name": "Majestic Hair Lounge",
+    "type": "Unisex",
+    "location": "Lucknow",
+    "services": ["Haircut", "Hair Color", "Shaving"]
+  },
+  {
+    "id": 31,
+    "name": "Regal Gents Grooming",
+    "type": "Male",
+    "location": "Ahmedabad",
+    "services": ["Haircut", "Beard Trim", "Pedicure"]
+  },
+  {
+    "id": 32,
+    "name": "Serenity Beauty Spa",
+    "type": "Female",
+    "location": "Chandigarh",
+    "services": ["Facial", "Hair Color", "Manicure"]
+  },
+  {
+    "id": 33,
+    "name": "The Urban Barber",
+    "type": "Male",
+    "location": "Bhopal",
+    "services": ["Haircut", "Beard Trim", "Shaving"]
+  },
+  {
+    "id": 34,
+    "name": "Flawless Glow Salon",
+    "type": "Female",
+    "location": "Nagpur",
+    "services": ["Facial", "Pedicure", "Manicure"]
+  },
+  {
+    "id": 35,
+    "name": "Lush Hair & Spa",
+    "type": "Unisex",
+    "location": "Coimbatore",
+    "services": ["Haircut", "Facial", "Manicure"]
+  },
+  {
+    "id": 36,
+    "name": "Royal Elite Salon",
+    "type": "Male",
+    "location": "Indore",
+    "services": ["Haircut", "Shaving", "Beard Trim"]
+  },
+  {
+    "id": 37,
+    "name": "Glam House Beauty",
+    "type": "Female",
+    "location": "Delhi",
+    "services": ["Facial", "Hair Color", "Manicure"]
+  },
+  {
+    "id": 38,
+    "name": "Perfect Cut Unisex",
+    "type": "Unisex",
+    "location": "Mumbai",
+    "services": ["Haircut", "Hair Color", "Pedicure"]
+  },
+  {
+    "id": 39,
+    "name": "The Classic Barber",
+    "type": "Male",
+    "location": "Pune",
+    "services": ["Haircut", "Shaving", "Beard Trim"]
+  },
+  {
+    "id": 40,
+    "name": "Timeless Beauty Spa",
+    "type": "Female",
+    "location": "Bangalore",
+    "services": ["Facial", "Manicure", "Pedicure"]
+  },
+  {
+    "id": 41,
+    "name": "Heavenly Touch Salon",
+    "type": "Female",
+    "location": "Indore",
+    "services": ["Facial", "Hair Color", "Manicure"]
+  },
+  {
+    "id": 42,
+    "name": "The Dapper Barber",
+    "type": "Male",
+    "location": "Delhi",
+    "services": ["Haircut", "Shaving", "Beard Trim"]
+  },
+  {
+    "id": 43,
+    "name": "Star Beauty Lounge",
+    "type": "Female",
+    "location": "Pune",
+    "services": ["Facial", "Pedicure", "Manicure"]
+  },
+  {
+    "id": 44,
+    "name": "Zen Unisex Salon",
+    "type": "Unisex",
+    "location": "Bangalore",
+    "services": ["Haircut", "Hair Color", "Shaving"]
+  },
+  {
+    "id": 45,
+    "name": "Supreme Men's Lounge",
+    "type": "Male",
+    "location": "Hyderabad",
+    "services": ["Haircut", "Beard Trim", "Pedicure"]
+  },
+  {
+    "id": 46,
+    "name": "Graceful Glow Beauty Spa",
+    "type": "Female",
+    "location": "Chennai",
+    "services": ["Facial", "Hair Color", "Manicure"]
+  },
+  {
+    "id": 47,
+    "name": "The Stylish Barber",
+    "type": "Male",
+    "location": "Kolkata",
+    "services": ["Haircut", "Shaving", "Beard Trim"]
+  },
+  {
+    "id": 48,
+    "name": "Elite Unisex Studio",
+    "type": "Unisex",
+    "location": "Jaipur",
+    "services": ["Haircut", "Facial", "Pedicure"]
+  },
+  {
+    "id": 49,
+    "name": "Pamper Palace",
+    "type": "Female",
+    "location": "Surat",
+    "services": ["Facial", "Manicure", "Hair Color"]
+  },
+  {
+    "id": 50,
+    "name": "Royal Cuts Barber",
+    "type": "Male",
+    "location": "Lucknow",
+    "services": ["Haircut", "Shaving", "Beard Trim"]
+  }
+]

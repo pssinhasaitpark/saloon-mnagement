@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Flat 50% Off on Hair Spa",
+    "description": "Rejuvenate your hair with our premium hair spa service.",
+    "image": "src/assets/images/OffonHairSpa.jpg",
+    "discount": "50%"
+  },
+  {
+    "title": "30% Off on Facial Treatments",
+    "description": "Get glowing skin with our exclusive facial treatments.",
+    "image": "src/assets/images/offerFacialTreatments.jpg",
+    "discount": "30%"
+  },
+  {
+    "title": "Exclusive Combo: Haircut + Beard Grooming",
+    "description": "A perfect combo for a sharp and stylish look.",
+    "image": "src/assets/images/Haircut_BeardGrooming.jpg",
+    "discount": "40%"
+  }
+]
