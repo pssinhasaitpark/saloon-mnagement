@@ -4,349 +4,1450 @@
     "name": "Elite Men's Salon",
     "type": "Male",
     "location": "Indore",
-    "services": ["Haircut", "Hair Color"]
+    "services": ["Haircut", "Hair Color"],
+    "rating": 4.5,
+    "reviewCount": 120,
+    "reviews": [
+      {
+        "author": "John D.",
+        "rating": 5,
+        "comment": "Great haircut! The staff was very professional."
+      },
+      {
+        "author": "Mike S.",
+        "rating": 4,
+        "comment": "Good service, but the wait time was a bit long."
+      }
+    ],
+    "phone": "(555) 123-4567",
+    "email": "info@elitemensalon.com",
+    "address": "123 Main St, Indore",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 2,
     "name": "Glamour Beauty Hub",
     "type": "Female",
     "location": "Indore",
-    "services": ["Facial", "Manicure"]
+    "services": ["Facial", "Manicure"],
+    "rating": 4.7,
+    "reviewCount": 95,
+    "reviews": [
+      {
+        "author": "Sarah J.",
+        "rating": 5,
+        "comment": "Absolutely loved my facial! Highly recommend."
+      },
+      {
+        "author": "Emily R.",
+        "rating": 4,
+        "comment": "Nice ambiance and friendly staff."
+      }
+    ],
+    "phone": "(555) 234-5678",
+    "email": "info@glamourbeautyhub.com",
+    "address": "456 Elm St, Indore",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 7:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 3,
     "name": "Unisex Pro Salon",
     "type": "Unisex",
     "location": "Indore",
-    "services": ["Haircut", "Facial"]
+    "services": ["Haircut", "Facial"],
+    "rating": 4.3,
+    "reviewCount": 80,
+    "reviews": [
+      {
+        "author": "Alex T.",
+        "rating": 4,
+        "comment": "Good service, but could improve on cleanliness."
+      },
+      {
+        "author": "Jessica L.",
+        "rating": 5,
+        "comment": "Loved my haircut! Will definitely come back."
+      }
+    ],
+    "phone": "(555) 345-6789",
+    "email": "info@unisexprosalon.com",
+    "address": "789 Oak St, Indore",
+    "businessHours": {
+      "weekdays": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 4,
     "name": "Men’s Grooming Lounge",
     "type": "Male",
     "location": "Indore",
-    "services": ["Haircut", "Pedicure"]
+    "services": ["Haircut", "Pedicure"],
+    "rating": 4.6,
+    "reviewCount": 60,
+    "reviews": [
+      {
+        "author": "Tom H.",
+        "rating": 5,
+        "comment": "Best grooming experience I've had!"
+      },
+      {
+        "author": "Chris P.",
+        "rating": 4,
+        "comment": "Nice place, but a bit pricey."
+      }
+    ],
+    "phone": "(555) 456-7890",
+    "email": "info@mensgroominglounge.com",
+    "address": "321 Pine St, Indore",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 5,
     "name": "Women’s Exclusive Spa",
     "type": "Female",
     "location": "Indore",
-    "services": ["Facial", "Manicure"]
+    "services": ["Facial", "Manicure"],
+    "rating": 4.8,
+    "reviewCount": 110,
+    "reviews": [
+      {
+        "author": "Anna K.",
+        "rating": 5,
+        "comment": "The best spa experience ever!"
+      },
+      {
+        "author": "Laura M.",
+        "rating": 4,
+        "comment": "Very relaxing atmosphere."
+      }
+    ],
+    "phone": "(555) 567-8901",
+    "email": "info@womensexclusive.com",
+    "address": "654 Maple St, Indore",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 7:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 6,
     "name": "Luxury Hair Studio",
     "type": "Unisex",
     "location": "Mumbai",
-    "services": ["Haircut", "Hair Color"]
+    "services": ["Haircut", "Hair Color"],
+    "rating": 4.5,
+    "reviewCount": 150,
+    "reviews": [
+      {
+        "author": "Nina P.",
+        "rating": 5,
+        "comment": "Amazing service and friendly staff!"
+      },
+      {
+        "author": "Raj K.",
+        "rating": 4,
+        "comment": "Great haircut, but a bit expensive."
+      }
+    ],
+    "phone": "(555) 678-9012",
+    "email": "info@luxuryhairstudio.com",
+    "address": "123 High St, Mumbai",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 7,
     "name": "The Beauty Retreat",
     "type": "Female",
     "location": "Delhi",
-    "services": ["Facial", "Pedicure"]
+    "services": ["Facial", "Pedicure"],
+    "rating": 4.6,
+    "reviewCount": 90,
+    "reviews": [
+      {
+        "author": "Maya L.",
+        "rating": 5,
+        "comment": "A wonderful experience! Highly recommend."
+      },
+      {
+        "author": "Sita R.",
+        "rating": 4,
+        "comment": "Very relaxing and professional."
+      }
+    ],
+    "phone": "(555) 789-0123",
+    "email": "info@thebeautyretreat.com",
+    "address": "456 Beauty Ave, Delhi",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 8,
     "name": "Classic Barber House",
     "type": "Male",
     "location": "Pune",
-    "services": ["Haircut", "Shaving"]
+    "services": ["Haircut", "Shaving"],
+    "rating": 4.4,
+    "reviewCount": 70,
+    "reviews": [
+      {
+        "author": "Vikram S.",
+        "rating": 5,
+        "comment": "Best barber in town!"
+      },
+      {
+        "author": "Ravi T.",
+        "rating": 4,
+        "comment": "Good service, but the place is small."
+      }
+    ],
+    "phone": "(555) 890-1234",
+    "email": "info@classicbarberhouse.com",
+    "address": "789 Barber St, Pune",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 9,
     "name": "Trendy Looks Salon",
     "type": "Unisex",
     "location": "Bangalore",
-    "services": ["Haircut", "Manicure", "Pedicure"]
+    "services": ["Haircut", "Manicure", "Pedicure"],
+    "rating": 4.7,
+    "reviewCount": 110,
+    "reviews": [
+      {
+        "author": "Anita G.",
+        "rating": 5,
+        "comment": "Fantastic service and very friendly staff!"
+      },
+      {
+        "author": "Kiran M.",
+        "rating": 4,
+        "comment": "Great haircut, will come back again."
+      }
+    ],
+    "phone": "(555) 901-2345",
+    "email": "info@trendylookssalon.com",
+    "address": "321 Trendy Rd, Bangalore",
+    "businessHours": {
+      "weekdays": "10:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 10,
     "name": "Royal Touch Beauty Spa",
     "type": "Female",
     "location": "Hyderabad",
-    "services": ["Facial", "Manicure", "Hair Color"]
+    "services": ["Facial", "Manicure", "Hair Color"],
+    "rating": 4.8,
+    "reviewCount": 130,
+    "reviews": [
+      {
+        "author": "Priya N.",
+        "rating": 5,
+        "comment": "The best spa experience I've ever had!"
+      },
+      {
+        "author": "Sonia K.",
+        "rating": 4,
+        "comment": "Very relaxing and professional staff."
+      }
+    ],
+    "phone": "(555) 012-3456",
+    "email": "info@royaltouchspa.com",
+    "address": "654 Royal St, Hyderabad",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 11,
     "name": "Majestic Gents Salon",
     "type": "Male",
     "location": "Chennai",
-    "services": ["Haircut", "Shaving", "Facial"]
+    "services": ["Haircut", "Shaving", "Facial"],
+    "rating": 4.5,
+    "reviewCount": 85,
+    "reviews": [
+      {
+        "author": "Rohan P.",
+        "rating": 5,
+        "comment": "Excellent service and very professional."
+      },
+      {
+        "author": "Vikram S.",
+        "rating": 4,
+        "comment": "Good haircut, but the wait was long."
+      }
+    ],
+    "phone": "(555) 123-4567",
+    "email": "info@majesticgentssalon.com",
+    "address": "123 Majestic Rd, Chennai",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 12,
     "name": "The Chic Hair Lounge",
     "type": "Unisex",
     "location": "Kolkata",
-    "services": ["Haircut", "Hair Color", "Pedicure"]
+    "services": ["Haircut", "Hair Color", "Pedicure"],
+    "rating": 4.6,
+    "reviewCount": 100,
+    "reviews": [
+      {
+        "author": "Nisha R.",
+        "rating": 5,
+        "comment": "Loved my new haircut! Highly recommend."
+      },
+      {
+        "author": "Sanjay T.",
+        "rating": 4,
+        "comment": "Great service, but a bit crowded."
+      }
+    ],
+    "phone": "(555) 234-5678",
+    "email": "info@thechichairlounge.com",
+    "address": "456 Chic St, Kolkata",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 13,
     "name": "Glow & Glam Salon",
     "type": "Female",
     "location": "Jaipur",
-    "services": ["Facial", "Manicure"]
+    "services": ["Facial", "Manicure"],
+    "rating": 4.7,
+    "reviewCount": 75,
+    "reviews": [
+      {
+        "author": "Anjali K.",
+        "rating": 5,
+        "comment": "Amazing facial! My skin feels great."
+      },
+      {
+        "author": "Pooja M.",
+        "rating": 4,
+        "comment": "Good service, but a bit pricey."
+      }
+    ],
+    "phone": "(555) 345-6789",
+    "email": "info@glowandglamsalon.com",
+    "address": "789 Glow St, Jaipur",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 14,
     "name": "Urban Gents Grooming",
     "type": "Male",
     "location": "Surat",
-    "services": ["Haircut", "Beard Trim", "Shaving"]
+    "services": ["Haircut", "Beard Trim", "Shaving"],
+    "rating": 4.4,
+    "reviewCount": 60,
+    "reviews": [
+      {
+        "author": "Kunal S.",
+        "rating": 5,
+        "comment": "Best grooming experience in town!"
+      },
+      {
+        "author": "Ravi P.",
+        "rating": 4,
+        "comment": "Good service, but the place is small."
+      }
+    ],
+    "phone": "(555) 456-7890",
+    "email": "info@urbangentgrooming.com",
+    "address": "321 Urban St, Surat",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 15,
     "name": "Velvet Touch Spa",
     "type": "Unisex",
     "location": "Lucknow",
-    "services": ["Facial", "Haircut", "Pedicure"]
+    "services": ["Facial", "Haircut", "Pedicure"],
+    "rating": 4.8,
+    "reviewCount": 110,
+    "reviews": [
+      {
+        "author": "Sakshi R.",
+        "rating": 5,
+        "comment": "The best spa experience ever!"
+      },
+      {
+        "author": "Neha K.",
+        "rating": 4,
+        "comment": "Very relaxing atmosphere."
+      }
+    ],
+    "phone": "(555) 567-8901",
+    "email": "info@velvettouchspa.com",
+    "address": "654 Velvet St, Lucknow",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 16,
     "name": "Royal Women’s Salon",
     "type": "Female",
     "location": "Ahmedabad",
-    "services": ["Facial", "Manicure", "Pedicure"]
+    "services": ["Facial", "Manicure", "Pedicure"],
+    "rating": 4.6,
+    "reviewCount": 95,
+    "reviews": [
+      {
+        "author": "Riya S.",
+        "rating": 5,
+        "comment": "Fantastic service and very friendly staff!"
+      },
+      {
+        "author": "Sonia M.",
+        "rating": 4,
+        "comment": "Great experience, will come back again."
+      }
+    ],
+    "phone": "(555) 678-9012",
+    "email": "info@royalwomenssalon.com",
+    "address": "123 Royal St, Ahmedabad",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 17,
     "name": "Golden Crown Barber",
     "type": "Male",
     "location": "Chandigarh",
-    "services": ["Haircut", "Shaving", "Beard Trim"]
+    "services": ["Haircut", "Shaving", "Beard Trim"],
+    "rating": 4.5,
+    "reviewCount": 80,
+    "reviews": [
+      {
+        "author": "Amit K.",
+        "rating": 5,
+        "comment": "Best barber in the city!"
+      },
+      {
+        "author": "Rajesh P.",
+        "rating": 4,
+        "comment": "Good service, but a bit crowded."
+      }
+    ],
+    "phone": "(555) 789-0123",
+    "email": "info@goldencrownbarber.com",
+    "address": "456 Crown St, Chandigarh",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 18,
     "name": "Blush & Beauty Studio",
     "type": "Female",
     "location": "Bhopal",
-    "services": ["Facial", "Hair Color", "Manicure"]
+    "services": ["Facial", "Hair Color", "Manicure"],
+    "rating": 4.7,
+    "reviewCount": 90,
+    "reviews": [
+      {
+        "author": "Pooja R.",
+        "rating": 5,
+        "comment": "Amazing service! My skin feels great."
+      },
+      {
+        "author": "Nisha K.",
+        "rating": 4,
+        "comment": "Good experience, but a bit pricey."
+      }
+    ],
+    "phone": "(555) 890-1234",
+    "email": "info@blushandbeautystudio.com",
+    "address": "789 Blush St, Bhopal",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 19,
     "name": "Gentlemen’s Lounge",
     "type": "Male",
     "location": "Nagpur",
-    "services": ["Haircut", "Shaving", "Pedicure"]
+    "services": ["Haircut", "Shaving", "Pedicure"],
+    "rating": 4.4,
+    "reviewCount": 70,
+    "reviews": [
+      {
+        "author": "Vikram S.",
+        "rating": 5,
+        "comment": "Great service and atmosphere!"
+      },
+      {
+        "author": "Ravi T.",
+        "rating": 4,
+        "comment": "Good haircut, but the wait was long."
+      }
+    ],
+    "phone": "(555) 901-2345",
+    "email": "info@gentlemenslounge.com",
+    "address": "321 Gentlemen St, Nagpur",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 20,
     "name": "Urban Trend Salon",
     "type": "Unisex",
     "location": "Coimbatore",
-    "services": ["Haircut", "Manicure", "Hair Color"]
+    "services": ["Haircut", "Manicure", "Hair Color"],
+    "rating": 4.6,
+    "reviewCount": 85,
+    "reviews": [
+      {
+        "author": "Anita G.",
+        "rating": 5,
+        "comment": "Fantastic service and very friendly staff!"
+      },
+      {
+        "author": "Kiran M.",
+        "rating": 4,
+        "comment": "Great haircut, will come back again."
+      }
+    ],
+    "phone": "(555) 012-3456",
+    "email": "info@urbantrendsalon.com",
+    "address": "654 Urban St, Coimbatore",
+    "businessHours": {
+      "weekdays": "10:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 21,
     "name": "Prestige Hair Studio",
     "type": "Unisex",
     "location": "Mumbai",
-    "services": ["Haircut", "Hair Color", "Manicure"]
+    "services": ["Haircut", "Hair Color", "Manicure"],
+    "rating": 4.5,
+    "reviewCount": 90,
+    "reviews": [
+      {
+        "author": "Nina P.",
+        "rating": 5,
+        "comment": "Amazing service and friendly staff!"
+      },
+      {
+        "author": "Raj K.",
+        "rating": 4,
+        "comment": "Great haircut, but a bit expensive."
+      }
+    ],
+    "phone": "(555) 678-9012",
+    "email": "info@prestigehairstudio.com",
+    "address": "123 Prestige St, Mumbai",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 22,
     "name": "Elite Beauty & Spa",
     "type": "Female",
     "location": "Delhi",
-    "services": ["Facial", "Manicure", "Pedicure"]
+    "services": ["Facial", "Manicure", "Pedicure"],
+    "rating": 4.8,
+    "reviewCount": 130,
+    "reviews": [
+      {
+        "author": "Priya N.",
+        "rating": 5,
+        "comment": "The best spa experience I've ever had!"
+      },
+      {
+        "author": "Sonia K.",
+        "rating": 4,
+        "comment": "Very relaxing and professional staff."
+      }
+    ],
+    "phone": "(555) 012-3456",
+    "email": "info@elitebeautyspa.com",
+    "address": "654 Elite St, Delhi",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 23,
     "name": "Gents Classic Salon",
     "type": "Male",
     "location": "Pune",
-    "services": ["Haircut", "Beard Trim", "Shaving"]
+    "services": ["Haircut", "Beard Trim", "Shaving"],
+    "rating": 4.4,
+    "reviewCount": 75,
+    "reviews": [
+      {
+        "author": "Vikram S.",
+        "rating": 5,
+        "comment": "Best barber in town!"
+      },
+      {
+        "author": "Ravi T.",
+        "rating": 4,
+        "comment": "Good service, but the place is small."
+      }
+    ],
+    "phone": "(555) 234-5678",
+    "email": "info@gentsclassicsalon.com",
+    "address": "789 Classic St, Pune",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 24,
     "name": "Luxury Glow Salon",
     "type": "Female",
     "location": "Bangalore",
-    "services": ["Facial", "Hair Color", "Manicure"]
+    "services": ["Facial", "Hair Color", "Manicure"],
+    "rating": 4.6,
+    "reviewCount": 80,
+    "reviews": [
+      {
+        "author": "Anjali K.",
+        "rating": 5,
+        "comment": "Amazing facial! My skin feels great."
+      },
+      {
+        "author": "Pooja M.",
+        "rating": 4,
+        "comment": "Good service, but a bit pricey."
+      }
+    ],
+    "phone": "(555) 345-6789",
+    "email": "info@luxuryglowsalon.com",
+    "address": "321 Luxury St, Bangalore",
+    "businessHours": {
+      "weekdays": "10:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 25,
     "name": "Ultimate Style Lounge",
     "type": "Unisex",
     "location": "Hyderabad",
-    "services": ["Haircut", "Hair Color", "Pedicure"]
+    "services": ["Haircut", "Hair Color", "Pedicure"],
+    "rating": 4.5,
+    "reviewCount": 90,
+    "reviews": [
+      {
+        "author": "Sakshi R.",
+        "rating": 5,
+        "comment": "The best spa experience ever!"
+      },
+      {
+        "author": "Neha K.",
+        "rating": 4,
+        "comment": "Very relaxing atmosphere."
+      }
+    ],
+    "phone": "(555) 567-8901",
+    "email": "info@ultimatestylelounge.com",
+    "address": "654 Ultimate St, Hyderabad",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 26,
     "name": "Timeless Beauty Hub",
     "type": "Female",
     "location": "Chennai",
-    "services": ["Facial", "Pedicure", "Manicure"]
+    "services": ["Facial", "Pedicure", "Manicure"],
+    "rating": 4.6,
+    "reviewCount": 85,
+    "reviews": [
+      {
+        "author": "Riya S.",
+        "rating": 5,
+        "comment": "Fantastic service and very friendly staff!"
+      },
+      {
+        "author": "Sonia M.",
+        "rating": 4,
+        "comment": "Great experience, will come back again."
+      }
+    ],
+    "phone": "(555) 678-9012",
+    "email": "info@timelessbeautyhub.com",
+    "address": "123 Timeless St, Chennai",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 27,
     "name": "Royal Barber Studio",
     "type": "Male",
     "location": "Kolkata",
-    "services": ["Haircut", "Beard Trim", "Shaving"]
+    "services": ["Haircut", "Beard Trim", "Shaving"],
+    "rating": 4.4,
+    "reviewCount": 70,
+    "reviews": [
+      {
+        "author": "Amit K.",
+        "rating": 5,
+        "comment": "Best barber in the city!"
+      },
+      {
+        "author": "Rajesh P.",
+        "rating": 4,
+        "comment": "Good service, but a bit crowded."
+      }
+    ],
+    "phone": "(555) 789-0123",
+    "email": "info@royalbarberstudio.com",
+    "address": "456 Royal St, Kolkata",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 28,
     "name": "Trendy Touch Salon",
     "type": "Unisex",
     "location": "Jaipur",
-    "services": ["Haircut", "Facial", "Hair Color"]
+    "services": ["Haircut", "Facial", "Hair Color"],
+    "rating": 4.5,
+    "reviewCount": 80,
+    "reviews": [
+      {
+        "author": "Anjali K.",
+        "rating": 5,
+        "comment": "Amazing facial! My skin feels great."
+      },
+      {
+        "author": "Pooja M.",
+        "rating": 4,
+        "comment": "Good service, but a bit pricey."
+      }
+    ],
+    "phone": "(555) 345-6789",
+    "email": "info@trendytouchsalon.com",
+    "address": "321 Trendy St, Jaipur",
+    "businessHours": {
+      "weekdays": "10:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 29,
     "name": "Chic Women’s Lounge",
     "type": "Female",
     "location": "Surat",
-    "services": ["Facial", "Manicure", "Pedicure"]
+    "services": ["Facial", "Manicure", "Pedicure"],
+    "rating": 4.6,
+    "reviewCount": 90,
+    "reviews": [
+      {
+        "author": "Riya S.",
+        "rating": 5,
+        "comment": "Fantastic service and very friendly staff!"
+      },
+      {
+        "author": "Sonia M.",
+        "rating": 4,
+        "comment": "Great experience, will come back again."
+      }
+    ],
+    "phone": "(555) 678-9012",
+    "email": "info@chicwomenslounge.com",
+    "address": "123 Chic St, Surat",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 30,
     "name": "Majestic Hair Lounge",
     "type": "Unisex",
     "location": "Lucknow",
-    "services": ["Haircut", "Hair Color", "Shaving"]
+    "services": ["Haircut", "Hair Color", "Shaving"],
+    "rating": 4.5,
+    "reviewCount": 85,
+    "reviews": [
+      {
+        "author": "Sakshi R.",
+        "rating": 5,
+        "comment": "The best spa experience ever!"
+      },
+      {
+        "author": "Neha K.",
+        "rating": 4,
+        "comment": "Very relaxing atmosphere."
+      }
+    ],
+    "phone": "(555) 567-8901",
+    "email": "info@majestichairlounge.com",
+    "address": "654 Majestic St, Lucknow",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 31,
     "name": "Regal Gents Grooming",
     "type": "Male",
     "location": "Ahmedabad",
-    "services": ["Haircut", "Beard Trim", "Pedicure"]
+    "services": ["Haircut", "Beard Trim", "Pedicure"],
+    "rating": 4.4,
+    "reviewCount": 70,
+    "reviews": [
+      {
+        "author": "Amit K.",
+        "rating": 5,
+        "comment": "Best barber in the city!"
+      },
+      {
+        "author": "Rajesh P.",
+        "rating": 4,
+        "comment": "Good service, but a bit crowded."
+      }
+    ],
+    "phone": "(555) 789-0123",
+    "email": "info@regalgentsgrooming.com",
+    "address": "456 Regal St, Ahmedabad",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 32,
     "name": "Serenity Beauty Spa",
     "type": "Female",
     "location": "Chandigarh",
-    "services": ["Facial", "Hair Color", "Manicure"]
+    "services": ["Facial", " Manicure", "Pedicure"],
+    "rating": 4.6,
+    "reviewCount": 80,
+    "reviews": [
+      {
+        "author": "Nisha R.",
+        "rating": 5,
+        "comment": "Amazing service! My skin feels rejuvenated."
+      },
+      {
+        "author": "Pooja M.",
+        "rating": 4,
+        "comment": "Good experience, but a bit crowded."
+      }
+    ],
+    "phone": "(555) 890-1234",
+    "email": "info@serenitybeautyspa.com",
+    "address": "789 Serenity St, Chandigarh",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 33,
-    "name": "The Urban Barber",
+    "name": "Glamour Gents Salon",
     "type": "Male",
     "location": "Bhopal",
-    "services": ["Haircut", "Beard Trim", "Shaving"]
+    "services": ["Haircut", "Shaving", "Facial"],
+    "rating": 4.5,
+    "reviewCount": 75,
+    "reviews": [
+      {
+        "author": "Ravi T.",
+        "rating": 5,
+        "comment": "Best grooming experience I've had!"
+      },
+      {
+        "author": "Vikram S.",
+        "rating": 4,
+        "comment": "Good service, but the wait was long."
+      }
+    ],
+    "phone": "(555) 123-4567",
+    "email": "info@glamourgentssalon.com",
+    "address": "321 Glamour St, Bhopal",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 34,
-    "name": "Flawless Glow Salon",
-    "type": "Female",
+    "name": "Chic Hair Studio",
+    "type": "Unisex",
     "location": "Nagpur",
-    "services": ["Facial", "Pedicure", "Manicure"]
+    "services": ["Haircut", "Hair Color", "Manicure"],
+    "rating": 4.6,
+    "reviewCount": 90,
+    "reviews": [
+      {
+        "author": "Anjali K.",
+        "rating": 5,
+        "comment": "Fantastic service and very friendly staff!"
+      },
+      {
+        "author": "Pooja M.",
+        "rating": 4,
+        "comment": "Great haircut, will come back again."
+      }
+    ],
+    "phone": "(555) 678-9012",
+    "email": "info@chichairstudio.com",
+    "address": "654 Chic St, Nagpur",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 35,
-    "name": "Lush Hair & Spa",
-    "type": "Unisex",
+    "name": "Urban Style Salon",
+    "type": "Female",
     "location": "Coimbatore",
-    "services": ["Haircut", "Facial", "Manicure"]
+    "services": ["Facial", "Manicure", "Pedicure"],
+    "rating": 4.7,
+    "reviewCount": 85,
+    "reviews": [
+      {
+        "author": "Sakshi R.",
+        "rating": 5,
+        "comment": "The best spa experience ever!"
+      },
+      {
+        "author": "Neha K.",
+        "rating": 4,
+        "comment": "Very relaxing atmosphere."
+      }
+    ],
+    "phone": "(555) 567-8901",
+    "email": "info@urbanstylesalon.com",
+    "address": "789 Urban St, Coimbatore",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 36,
-    "name": "Royal Elite Salon",
-    "type": "Male",
-    "location": "Indore",
-    "services": ["Haircut", "Shaving", "Beard Trim"]
+    "name": "Regal Beauty Lounge",
+    "type": "Unisex",
+    "location": "Ahmedabad",
+    "services": ["Haircut", "Hair Color", "Facial"],
+    "rating": 4.5,
+    "reviewCount": 70,
+    "reviews": [
+      {
+        "author": "Amit K.",
+        "rating": 5,
+        "comment": "Best barber in the city!"
+      },
+      {
+        "author": "Rajesh P.",
+        "rating": 4,
+        "comment": "Good service, but a bit crowded."
+      }
+    ],
+    "phone": "(555) 789-0123",
+    "email": "info@regalbeautylounge.com",
+    "address": "456 Regal St, Ahmedabad",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 37,
-    "name": "Glam House Beauty",
+    "name": "Glamour Touch Spa",
     "type": "Female",
-    "location": "Delhi",
-    "services": ["Facial", "Hair Color", "Manicure"]
+    "location": "Chennai",
+    "services": ["Facial", "Manicure", "Pedicure"],
+    "rating": 4.6,
+    "reviewCount": 80,
+    "reviews": [
+      {
+        "author": "Nisha R.",
+        "rating": 5,
+        "comment": "Amazing service! My skin feels rejuvenated."
+      },
+      {
+        "author": "Pooja M.",
+        "rating": 4,
+        "comment": "Good experience, but a bit crowded."
+      }
+    ],
+    "phone": "(555) 890-1234",
+    "email": "info@glamourtouchspa.com",
+    "address": "789 Glamour St, Chennai",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 38,
-    "name": "Perfect Cut Unisex",
-    "type": "Unisex",
-    "location": "Mumbai",
-    "services": ["Haircut", "Hair Color", "Pedicure"]
+    "name": "Chic Gents Salon",
+    "type": "Male",
+    "location": "Bangalore",
+    "services": ["Haircut", "Shaving", "Facial"],
+    "rating": 4.5,
+    "reviewCount": 75,
+    "reviews": [
+      {
+        "author": "Ravi T.",
+        "rating": 5,
+        "comment": "Best grooming experience I've had!"
+      },
+      {
+        "author": "Vikram S.",
+        "rating": 4,
+        "comment": "Good service, but the wait was long."
+      }
+    ],
+    "phone": "(555) 123-4567",
+    "email": "info@chicgentssalon.com",
+    "address": "321 Chic St, Bangalore",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 39,
-    "name": "The Classic Barber",
-    "type": "Male",
-    "location": "Pune",
-    "services": ["Haircut", "Shaving", "Beard Trim"]
+    "name": "Serene Beauty Lounge",
+    "type": "Female",
+    "location": "Delhi",
+    "services": ["Facial", "Manicure", "Pedicure"],
+    "rating": 4.8,
+    "reviewCount": 130,
+    "reviews": [
+      {
+        "author": "Priya N.",
+        "rating": 5,
+        "comment": "The best spa experience I've ever had!"
+      },
+      {
+        "author": "Sonia K.",
+        "rating": 4,
+        "comment": "Very relaxing and professional staff."
+      }
+    ],
+    "phone": "(555) 012-3456",
+    "email": "info@serenebeautylounge.com",
+    "address": "654 Serene St, Delhi",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 40,
-    "name": "Timeless Beauty Spa",
-    "type": "Female",
-    "location": "Bangalore",
-    "services": ["Facial", "Manicure", "Pedicure"]
+    "name": "Urban Chic Salon",
+    "type": "Unisex",
+    "location": "Pune",
+    "services": ["Haircut", "Hair Color", "Facial"],
+    "rating": 4.6,
+    "reviewCount": 90,
+    "reviews": [
+      {
+        "author": "Anjali K.",
+        "rating": 5,
+        "comment": "Fantastic service and very friendly staff!"
+      },
+      {
+        "author": "Pooja M.",
+        "rating": 4,
+        "comment": "Great haircut, will come back again."
+      }
+    ],
+    "phone": "(555) 678-9012",
+    "email": "info@urbanchicsalon.com",
+    "address": "456 Urban St, Pune",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 41,
-    "name": "Heavenly Touch Salon",
+    "name": " Glamour Hair Studio",
     "type": "Female",
-    "location": "Indore",
-    "services": ["Facial", "Hair Color", "Manicure"]
+    "location": "Mumbai",
+    "services": ["Facial", "Hair Color", "Manicure"],
+    "rating": 4.7,
+    "reviewCount": 100,
+    "reviews": [
+      {
+        "author": "Sakshi R.",
+        "rating": 5,
+        "comment": "Amazing service! My hair looks fantastic."
+      },
+      {
+        "author": "Neha K.",
+        "rating": 4,
+        "comment": "Good experience, but a bit crowded."
+      }
+    ],
+    "phone": "(555) 789-0123",
+    "email": "info@glamourhairstudio.com",
+    "address": "321 Glamour St, Mumbai",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 42,
-    "name": "The Dapper Barber",
+    "name": "Trendy Gents Lounge",
     "type": "Male",
     "location": "Delhi",
-    "services": ["Haircut", "Shaving", "Beard Trim"]
+    "services": ["Haircut", "Shaving", "Beard Trim"],
+    "rating": 4.5,
+    "reviewCount": 85,
+    "reviews": [
+      {
+        "author": "Ravi T.",
+        "rating": 5,
+        "comment": "Best grooming experience I've had!"
+      },
+      {
+        "author": "Vikram S.",
+        "rating": 4,
+        "comment": "Good service, but the wait was long."
+      }
+    ],
+    "phone": "(555) 123-4567",
+    "email": "info@trendygentslounge.com",
+    "address": "654 Trendy St, Delhi",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 43,
-    "name": "Star Beauty Lounge",
+    "name": "Chic Beauty Spa",
     "type": "Female",
-    "location": "Pune",
-    "services": ["Facial", "Pedicure", "Manicure"]
+    "location": "Bangalore",
+    "services": ["Facial", "Manicure", "Pedicure"],
+    "rating": 4.8,
+    "reviewCount": 120,
+    "reviews": [
+      {
+        "author": "Anjali K.",
+        "rating": 5,
+        "comment": "Fantastic service and very friendly staff!"
+      },
+      {
+        "author": "Pooja M.",
+        "rating": 4,
+        "comment": "Great experience, will come back again."
+      }
+    ],
+    "phone": "(555) 678-9012",
+    "email": "info@chicbeautyspa.com",
+    "address": "789 Chic St, Bangalore",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 44,
-    "name": "Zen Unisex Salon",
+    "name": "Regal Hair Lounge",
     "type": "Unisex",
-    "location": "Bangalore",
-    "services": ["Haircut", "Hair Color", "Shaving"]
+    "location": "Hyderabad",
+    "services": ["Haircut", "Hair Color", "Facial"],
+    "rating": 4.6,
+    "reviewCount": 90,
+    "reviews": [
+      {
+        "author": "Sakshi R.",
+        "rating": 5,
+        "comment": "The best spa experience ever!"
+      },
+      {
+        "author": "Neha K.",
+        "rating": 4,
+        "comment": "Very relaxing atmosphere."
+      }
+    ],
+    "phone": "(555) 567-8901",
+    "email": "info@regalhairlounge.com",
+    "address": "654 Regal St, Hyderabad",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 45,
-    "name": "Supreme Men's Lounge",
-    "type": "Male",
-    "location": "Hyderabad",
-    "services": ["Haircut", "Beard Trim", "Pedicure"]
+    "name": "Urban Glam Salon",
+    "type": "Female",
+    "location": "Chennai",
+    "services": ["Facial", "Manicure", "Pedicure"],
+    "rating": 4.7,
+    "reviewCount": 100,
+    "reviews": [
+      {
+        "author": "Nisha R.",
+        "rating": 5,
+        "comment": "Amazing service! My skin feels rejuvenated."
+      },
+      {
+        "author": "Pooja M.",
+
+        "rating": 4,
+        "comment": "Good experience, but a bit crowded."
+      }
+    ],
+    "phone": "(555) 890-1234",
+    "email": "info@urbanglamsalon.com",
+    "address": "789 Urban St, Chennai",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 46,
-    "name": "Graceful Glow Beauty Spa",
-    "type": "Female",
-    "location": "Chennai",
-    "services": ["Facial", "Hair Color", "Manicure"]
+    "name": "Glamour Touch Studio",
+    "type": "Unisex",
+    "location": "Mumbai",
+    "services": ["Haircut", "Hair Color", "Facial"],
+    "rating": 4.5,
+    "reviewCount": 85,
+    "reviews": [
+      {
+        "author": "Ravi T.",
+        "rating": 5,
+        "comment": "Best grooming experience I've had!"
+      },
+      {
+        "author": "Vikram S.",
+        "rating": 4,
+        "comment": "Good service, but the wait was long."
+      }
+    ],
+    "phone": "(555) 123-4567",
+    "email": "info@glamourtouchstudio.com",
+    "address": "321 Glamour St, Mumbai",
+    "businessHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 47,
-    "name": "The Stylish Barber",
+    "name": "Chic Gents Lounge",
     "type": "Male",
-    "location": "Kolkata",
-    "services": ["Haircut", "Shaving", "Beard Trim"]
+    "location": "Delhi",
+    "services": ["Haircut", "Shaving", "Beard Trim"],
+    "rating": 4.6,
+    "reviewCount": 90,
+    "reviews": [
+      {
+        "author": "Amit K.",
+        "rating": 5,
+        "comment": "Best barber in the city!"
+      },
+      {
+        "author": "Rajesh P.",
+        "rating": 4,
+        "comment": "Good service, but a bit crowded."
+      }
+    ],
+    "phone": "(555) 789-0123",
+    "email": "info@chicgentslounge.com",
+    "address": "456 Chic St, Delhi",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 48,
-    "name": "Elite Unisex Studio",
-    "type": "Unisex",
-    "location": "Jaipur",
-    "services": ["Haircut", "Facial", "Pedicure"]
+    "name": "Regal Beauty Studio",
+    "type": "Female",
+    "location": "Bangalore",
+    "services": ["Facial", "Manicure", "Pedicure"],
+    "rating": 4.7,
+    "reviewCount": 100,
+    "reviews": [
+      {
+        "author": "Sakshi R.",
+        "rating": 5,
+        "comment": "Amazing service! My skin feels rejuvenated."
+      },
+      {
+        "author": "Neha K.",
+        "rating": 4,
+        "comment": "Good experience, but a bit crowded."
+      }
+    ],
+    "phone": "(555) 890-1234",
+    "email": "info@regalbeautystudio.com",
+    "address": "789 Regal St, Bangalore",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 49,
-    "name": "Pamper Palace",
-    "type": "Female",
-    "location": "Surat",
-    "services": ["Facial", "Manicure", "Hair Color"]
+    "name": "Urban Style Lounge",
+    "type": "Unisex",
+    "location": "Hyderabad",
+    "services": ["Haircut", "Hair Color", "Facial"],
+    "rating": 4.5,
+    "reviewCount": 85,
+    "reviews": [
+      {
+        "author": "Anjali K.",
+        "rating": 5,
+        "comment": "Fantastic service and very friendly staff!"
+      },
+      {
+        "author": "Pooja M.",
+        "rating": 4,
+        "comment": "Great haircut, will come back again."
+      }
+    ],
+    "phone": "(555) 678-9012",
+    "email": "info@urbanstylelounge.com",
+    "address": "321 Urban St, Hyderabad",
+    "businessHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6",
+      "sunday": "Closed"
+    }
   },
   {
     "id": 50,
-    "name": "Royal Cuts Barber",
-    "type": "Male",
-    "location": "Lucknow",
-    "services": ["Haircut", "Shaving", "Beard Trim"]
+    "name": "Glamour Hair Lounge",
+    "type": "Female",
+    "location": "Chennai",
+    "services": ["Facial", "Manicure", "Hair Color"],
+    "rating": 4.6,
+    "reviewCount": 95,
+    "reviews": [
+      {
+        "author": "Riya S.",
+        "rating": 5,
+        "comment": "Fantastic service and very friendly staff!"
+      },
+      {
+        "author": "Sonia M.",
+        "rating": 4,
+        "comment": "Great experience, will come back again."
+      }
+    ],
+    "phone": "(555) 890-1234",
+    "email": "info@glamourhairlounge.com",
+    "address": "654 Glamour St, Chennai",
+    "businessHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
   }
 ]
