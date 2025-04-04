@@ -42,7 +42,7 @@ const Hero = ({ setSelectedCategory }) => {
         ].map(({ label, icon, type }) => (
           <button
             key={type}
-            className="flex items-center gap-3 px-5 py-3 sm:px-6 sm:py-3 bg-gray-200 bg-opacity-30 backdrop-blur-md text-gray-700 rounded-full text-sm sm:text-lg font-semibold shadow-md transition-all duration-300 hover:bg-opacity-40 hover:scale-105 cursor-pointer"
+            className="flex items-center gap-3 px-5 py-3 sm:px-6 sm:py-3 bg-white bg-opacity-30 backdrop-blur-md text-gray-700 rounded-full text-sm sm:text-lg font-semibold shadow-md transition-all duration-300 hover:bg-opacity-40 hover:scale-105 cursor-pointer"
             onClick={() => handleCategoryClick(type)}
           >
             <img

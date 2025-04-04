@@ -108,7 +108,7 @@ function MainSection({ selectedCategory }) {
               </span>
             )}
           </div>
-          <span className="text-sm bg-gray-100 px-3 py-1 rounded-full">
+          <span className="text-sm bg-gray-100 px-3 py-1 text-center rounded-full">
             {filteredSalons.length} results
           </span>
         </h2>
