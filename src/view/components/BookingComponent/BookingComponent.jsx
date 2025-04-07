@@ -87,7 +87,7 @@ function BookingComponent({ openDialog, setopenDialog }) {
             {
               label: "Specialist",
               name: "specialist",
-              options: ["Ravi", "Sita", "Anjali"],
+              options: ["Ravi", "Seema", "Anjali"],
             },
           ].map((field) => (
             <div key={field.name} className="w-full">
@@ -150,7 +150,7 @@ function BookingComponent({ openDialog, setopenDialog }) {
           <div className="col-span-full">
             <button
               type="submit"
-              className="w-full py-3 px-4 text-white font-semibold bg-[#D1BB9E] hover:bg-gray-800 transition-colors rounded"
+              className="w-full py-3 px-4 text-white font-semibold bg-[#D1BB9E] hover:bg-gray-800 transition-colors rounded cursor-pointer"
             >
               Confirm Booking
             </button>
