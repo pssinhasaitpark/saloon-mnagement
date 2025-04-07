@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineSearch } from "react-icons/ai";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const Navbar = ({ setShowSearchPopup }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,9 +13,9 @@ const Navbar = ({ setShowSearchPopup }) => {
     <nav className="fixed top-0 w-full backdrop-blur-md h-16 flex items-center px-6 z-50">
       <div className="container mx-auto max-w-7xl flex justify-between items-center">
         {/* Logo */}
-        <a href="/" className="text-2xl font-bold text-[#5A3E2B]">
+        <Link to="/" className="text-2xl font-bold text-[#5A3E2B]">
           SalonHunt
-        </a>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex flex-1 justify-center items-center space-x-8">
@@ -26,9 +27,9 @@ const Navbar = ({ setShowSearchPopup }) => {
             { name: "Find Salons", id: "find-salons" },
             { name: "Contact", id: "contact" },
           ].map((item, index) => (
-            <a
+            <Link
               key={index}
-              href={`#${item.id}`}
+              to={`#${item.id}`}
               onClick={(e) => {
                 e.preventDefault();
                 document.getElementById(item.id)?.scrollIntoView({
@@ -39,7 +40,7 @@ const Navbar = ({ setShowSearchPopup }) => {
               className="text-[#5A3E2B] hover:text-[#7D5D43] transition duration-300 font-medium cursor-pointer"
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </div>
 

@@ -6,7 +6,7 @@ import ContactSection from "./homePageComponents/ContactSection";
 import MainSection from "./homePageComponents/MainSection";
 import OffersSection from "./homePageComponents/OffersSection";
 import ServicesSection from "./homePageComponents/ServicesSection";
-
+import BookingComponent from "./BookingComponent/BookingComponent";
 export {
   Navbar,
   Footer,
@@ -16,4 +16,5 @@ export {
   MainSection,
   OffersSection,
   ServicesSection,
+  BookingComponent,
 };
