@@ -1,2 +1,3 @@
 # saloon-mnagement
-This is educational purpose only 
+
+This is educational purpose only
