@@ -6,11 +6,16 @@ import { img2, img3, img4, img5 } from "../../../assets/index.js";
 import { FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BookingComponent } from "../../components/index.js";
+import Login from "../auth/Login.jsx";
+import Register from "../auth/register.jsx";
 const SalonDetails = () => {
   const { id } = useParams();
   const [salon, setSalon] = useState(null);
   const [loading, setLoading] = useState(true);
   const [openDialog, setopenDialog] = useState(false);
+  const [registered, setregistered] = useState(false);
+  const token = false; // change it to check the authentication
+
   useEffect(() => {
     const numericId = Number(id);
     const foundSalon = salonData.find((item) => item.id === numericId);
@@ -185,7 +190,7 @@ const SalonDetails = () => {
                             {pkg.name}
                           </h3>
                           {pkg.tag && (
-                            <span className="bg-yellow-100 text-yellow-700 text-xs font-medium px-3 py-1 rounded-full">
+                            <span className="bg-yellow-100 text-yellow-700 text-xs font-medium px-3 py-1 rounded-full text-center">
                               {pkg.tag}
                             </span>
                           )}
@@ -427,13 +432,30 @@ const SalonDetails = () => {
         </div>
       </div>
 
+      {/* Booking Component  */}
       <div className="relative">
-        {openDialog && (
-          <BookingComponent
-            openDialog={openDialog}
-            setopenDialog={setopenDialog}
-          />
-        )}
+        {token ? (
+          openDialog ? (
+            <BookingComponent
+              openDialog={openDialog}
+              setopenDialog={setopenDialog}
+            />
+          ) : null
+        ) : openDialog ? (
+          registered ? (
+            <Login
+              openDialog={openDialog}
+              setopenDialog={setopenDialog}
+              setregistered={setregistered}
+            />
+          ) : (
+            <Register
+              openDialog={openDialog}
+              setopenDialog={setopenDialog}
+              setregistered={setregistered}
+            />
+          )
+        ) : null}
       </div>
     </div>
   );

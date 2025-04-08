@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import MainLayout from "./view/layouts/MainLayout";
-import { Home, SalonDetails, SalonList } from "./view/pages/index";
+import { Home, SalonDetails, SalonList, Register } from "./view/pages/index";
+
 function App() {
   return (
     <Routes>
