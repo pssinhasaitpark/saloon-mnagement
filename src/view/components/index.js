@@ -7,7 +7,9 @@ import MainSection from "./homePageComponents/MainSection";
 import OffersSection from "./homePageComponents/OffersSection";
 import ServicesSection from "./homePageComponents/ServicesSection";
 import BookingComponent from "./BookingComponent/BookingComponent";
+import AuthForm from "./authForm/AuthForm";
 export {
+  AuthForm,
   Navbar,
   Footer,
   Hero,
