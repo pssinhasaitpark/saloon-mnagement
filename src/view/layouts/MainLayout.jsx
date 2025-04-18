@@ -1,20 +1,38 @@
 import { Outlet } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
+import { useState } from "react";
 import {
   openSearchPopup,
   closeSearchPopup,
   setLocation,
   setSearchRadius,
 } from "../redux/slices/searchSlice";
-import Navbar from "../components/navbar/Navbar";
-import Footer from "../components/footer/Footer";
+import { registerUser } from "../redux/slices/userauthSlice";
+import { Navbar, Footer, AuthForm } from "../components/index";
 
 const MainLayout = () => {
   const dispatch = useDispatch();
   const isPopupOpen = useSelector((state) => state.search.isPopupOpen);
   const location = useSelector((state) => state.search.location);
   const searchRadius = useSelector((state) => state.search.searchRadius);
-  // console.log("location:", location);
+  const { loading } = useSelector((state) => state.user);
+
+  const [showAuthModal, setShowAuthModal] = useState(false);
+  const [isRegistered, setRegistered] = useState(false);
+
+  const handleAuthSubmit = async (e) => {
+    e.preventDefault();
+    const form = new FormData(e.target);
+    const data = Object.fromEntries(form.entries());
+
+    try {
+      await dispatch(registerUser(data)).unwrap();
+      alert("Registration successful");
+      setShowAuthModal(false);
+    } catch (error) {
+      alert("Registration failed: " + error);
+    }
+  };
 
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
@@ -27,7 +45,7 @@ const MainLayout = () => {
       </main>
 
       {/* Footer */}
-      <Footer />
+      <Footer onRegisterClick={() => setShowAuthModal(true)} />
 
       {/* Search Popup */}
       {isPopupOpen && (
@@ -47,7 +65,7 @@ const MainLayout = () => {
               </button>
             </div>
 
-            {/* Location Input */}
+            {/* Inputs */}
             <div className="p-6 space-y-5">
               <label className="block text-sm font-medium text-[#5A3E2B]">
                 Your Location
@@ -60,7 +78,6 @@ const MainLayout = () => {
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#7D5D43] focus:border-transparent shadow-sm"
               />
 
-              {/* Search Radius */}
               <label className="block text-sm font-medium text-[#5A3E2B]">
                 Search Radius
               </label>
@@ -78,7 +95,6 @@ const MainLayout = () => {
                 Radius: {searchRadius} km
               </p>
 
-              {/* Search Button */}
               <button
                 className="w-full bg-gradient-to-r from-[#7D5D43] to-[#5A3E2B] hover:from-[#5A3E2B] hover:to-[#7D5D43] text-white font-medium py-3 px-4 rounded-lg transition-colors duration-300"
                 onClick={() => dispatch(closeSearchPopup())}
@@ -88,6 +104,30 @@ const MainLayout = () => {
             </div>
           </div>
         </div>
+      )}
+
+      {/* Auth Modal */}
+      {showAuthModal && (
+        <AuthForm
+          title={isRegistered ? "Login" : "Salon Registration"}
+          fields={
+            isRegistered
+              ? [
+                  { label: "Email", name: "email", type: "email" },
+                  { label: "Password", name: "password", type: "password" },
+                ]
+              : [
+                  { label: "Full Name", name: "fullName", type: "text" },
+                  { label: "Email", name: "email", type: "email" },
+                  { label: "Mobile No.", name: "mobile", type: "text" },
+                  { label: "Password", name: "password", type: "password" },
+                ]
+          }
+          onSubmit={handleAuthSubmit}
+          onClose={() => setShowAuthModal(false)}
+          setregistered={setRegistered}
+          loading={loading}
+        />
       )}
     </div>
   );

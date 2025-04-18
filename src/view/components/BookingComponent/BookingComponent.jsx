@@ -28,7 +28,7 @@ function BookingComponent({ openDialog, setopenDialog }) {
   if (!openDialog) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex justify-center items-center backdrop-blur-md px-2 sm:px-4 overflow-y-auto">
+    <div className="fixed inset-0 z-50 flex justify-center items-center backdrop-blur-md bg-black/50 px-2 sm:px-4 overflow-y-auto">
       <div className="w-full max-w-2xl bg-white rounded-xl shadow-lg my-8 sm:my-10 ">
         {/* Header */}
 
