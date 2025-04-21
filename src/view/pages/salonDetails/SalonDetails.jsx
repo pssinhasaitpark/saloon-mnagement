@@ -6,11 +6,17 @@ import { img2, img3, img4, img5 } from "../../../assets/index.js";
 import { FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BookingComponent } from "../../components/index.js";
+import Login from "../auth/Login.jsx";
+import Register from "../auth/register.jsx";
 const SalonDetails = () => {
   const { id } = useParams();
   const [salon, setSalon] = useState(null);
   const [loading, setLoading] = useState(true);
   const [openDialog, setopenDialog] = useState(false);
+  const [registered, setregistered] = useState(false);
+  const token = localStorage.getItem("userToken");
+  // console.log("token:", token);
+
   useEffect(() => {
     const numericId = Number(id);
     const foundSalon = salonData.find((item) => item.id === numericId);
@@ -149,7 +155,7 @@ const SalonDetails = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-10 gap-8">
               {/* Left Content */}
-              <div className="lg:col-span-7 space-y-10">
+              <div className="lg:col-span-7 space-y-10 mt-5">
                 {/* Services Offered */}
                 <section className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 mt-8">
                   <h2 className="text-2xl font-semibold text-gray-800 mb-4">
@@ -185,7 +191,7 @@ const SalonDetails = () => {
                             {pkg.name}
                           </h3>
                           {pkg.tag && (
-                            <span className="bg-yellow-100 text-yellow-700 text-xs font-medium px-3 py-1 rounded-full">
+                            <span className="bg-yellow-100 text-yellow-700 text-xs font-medium px-3 py-1 rounded-full text-center">
                               {pkg.tag}
                             </span>
                           )}
@@ -297,7 +303,7 @@ const SalonDetails = () => {
 
               {/* Right Sidebar: Image Grid */}
               <div className="lg:col-span-3 space-y-4 mt-8">
-                <div className="grid grid-cols-2 gap-2">
+                <div className="grid grid-cols-2 gap-2 mt-5">
                   <img
                     src={img1}
                     alt="Main"
@@ -418,22 +424,39 @@ const SalonDetails = () => {
             <div className="mt-8 text-center">
               <button
                 onClick={OpenBooking}
-                className="bg-[#D1BB9E] hover:bg-gray-800 hover:text-white transition-colors text-gray-800 font-bold py-3 px-8 rounded-full text-lg cursor-pointer"
+                className="bg-[#D1BB9E] hover:bg-gray-800 hover:text-white transition-colors text-gray-800 font-bold py-3 px-8 rounded-full text-lg cursor-pointer mt-5"
               >
-                Book an Appointment
+                Book an Appointments
               </button>
             </div>
           </div>
         </div>
       </div>
 
+      {/* Booking Component  */}
       <div className="relative">
-        {openDialog && (
-          <BookingComponent
-            openDialog={openDialog}
-            setopenDialog={setopenDialog}
-          />
-        )}
+        {token ? (
+          openDialog ? (
+            <BookingComponent
+              openDialog={openDialog}
+              setopenDialog={setopenDialog}
+            />
+          ) : null
+        ) : openDialog ? (
+          registered ? (
+            <Login
+              openDialog={openDialog}
+              setopenDialog={setopenDialog}
+              setregistered={setregistered}
+            />
+          ) : (
+            <Register
+              openDialog={openDialog}
+              setopenDialog={setopenDialog}
+              setregistered={setregistered}
+            />
+          )
+        ) : null}
       </div>
     </div>
   );

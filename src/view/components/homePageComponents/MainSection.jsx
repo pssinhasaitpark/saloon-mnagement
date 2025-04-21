@@ -184,7 +184,7 @@ function MainSection({ selectedCategory }) {
               <div className="mt-6 text-center">
                 <button
                   onClick={() => setVisibleCount((prev) => prev + 6)}
-                  className="px-6 py-3 bg-gray-800 text-white rounded-md hover:bg-gray-900 transition-all duration-300"
+                  className="px-6 py-3 bg-gray-800 text-white rounded-md hover:bg-gray-900 transition-all duration-300 cursor-pointer"
                 >
                   View More
                 </button>
