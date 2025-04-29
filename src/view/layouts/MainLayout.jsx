@@ -7,7 +7,7 @@ import {
   setLocation,
   setSearchRadius,
 } from "../redux/slices/searchSlice";
-import { registerUser } from "../redux/slices/userauthSlice";
+import { registerUser } from "../redux/slices/adminauthslice";
 import { Navbar, Footer, AuthForm } from "../components/index";
 
 const MainLayout = () => {

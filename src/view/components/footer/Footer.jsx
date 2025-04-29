@@ -5,7 +5,7 @@ const Footer = ({ onRegisterClick }) => {
     <footer className="bg-gray-900 text-white py-6 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
         <p className="text-sm text-gray-400 text-center sm:text-left">
-          &copy; {new Date().getFullYear()}{" "}
+          &copy; {new Date().getFullYear()}
           <span className="font-semibold text-white">SalonHunt</span>. All
           rights reserved.
         </p>

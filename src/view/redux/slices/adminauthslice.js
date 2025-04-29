@@ -1,6 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "../axios/axios";
 
+// Register user
 export const registerUser = createAsyncThunk(
   "user/register",
   async (userData, { rejectWithValue }) => {
@@ -12,12 +13,45 @@ export const registerUser = createAsyncThunk(
     }
   }
 );
+// Fetch current user
+export const fetchCurrentUser = createAsyncThunk(
+  "user/fetchCurrentUser",
+  async (_, { rejectWithValue }) => {
+    try {
+      const token = localStorage.getItem("token");
+      if (!token) throw new Error("Token not found");
+
+      axios.defaults.headers.common["Authorization"] = `Bearer ${token}`;
+      const response = await axios.get("/user/me");
+
+      const userData = response.data.data[0];
+      localStorage.setItem("userInfo", JSON.stringify(userData));
+      return userData;
+    } catch (error) {
+      if (error.response?.status === 401) {
+        localStorage.removeItem("token");
+        localStorage.removeItem("userInfo");
+      }
+      return rejectWithValue(error.response?.data?.message || error.message);
+    }
+  }
+);
+
 export const loginUser = createAsyncThunk(
-  "user/login",
+  "user/loginUser",
   async (userData, { rejectWithValue }) => {
     try {
       const response = await axios.post("/user/login", userData);
-      return response.data;
+
+      const token = response.data.data.token;
+      const role = response.data.data.role;
+
+      if (token) {
+        localStorage.setItem("token", token);
+        localStorage.setItem("userrole", role);
+      }
+
+      return response.data.data;
     } catch (error) {
       return rejectWithValue(error.response?.data?.message || error.message);
     }
@@ -25,40 +59,54 @@ export const loginUser = createAsyncThunk(
 );
 
 const initialState = {
-  user: JSON.parse(localStorage.getItem("user")) || null,
-  token: localStorage.getItem("userToken") || null,
+  user: localStorage.getItem("userInfo") || null,
+  token: localStorage.getItem("token") || null,
+  role: localStorage.getItem("userrole") || null,
   loading: false,
   error: null,
 };
-
-const UserSlice = createSlice({
+const userSlice = createSlice({
   name: "user",
   initialState,
   reducers: {
     logoutUser: (state) => {
       state.user = null;
       state.token = null;
-      localStorage.removeItem("user");
-      localStorage.removeItem("userToken");
+      state.role = null;
+      localStorage.removeItem("token");
+      localStorage.removeItem("userrole");
+      localStorage.removeItem("userInfo");
     },
   },
   extraReducers: (builder) => {
     builder
+      // Register
       .addCase(registerUser.pending, (state) => {
         state.loading = true;
         state.error = null;
       })
       .addCase(registerUser.fulfilled, (state, action) => {
         state.loading = false;
-        state.user = action.payload.user;
-        state.token = action.payload.token;
-
-        localStorage.setItem("user", JSON.stringify(action.payload.user));
-        localStorage.setItem("userToken", action.payload.token);
+        const data = action.payload.data;
+        state.user = data;
       })
       .addCase(registerUser.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.payload || action.error.message;
+        state.error = action.payload;
+      })
+
+      .addCase(fetchCurrentUser.pending, (state) => {
+        state.loading = true;
+        state.error = null;
+      })
+      .addCase(fetchCurrentUser.fulfilled, (state, action) => {
+        state.loading = false;
+        state.user = action.payload;
+      })
+      .addCase(fetchCurrentUser.rejected, (state, action) => {
+        state.loading = false;
+        state.error = action.payload;
+        state.user = null;
       })
       .addCase(loginUser.pending, (state) => {
         state.loading = true;
@@ -66,21 +114,16 @@ const UserSlice = createSlice({
       })
       .addCase(loginUser.fulfilled, (state, action) => {
         state.loading = false;
-        state.user = action.payload.user;
+        state.user = action.payload;
         state.token = action.payload.token;
-
-        localStorage.setItem("user", JSON.stringify(action.payload.user));
-        localStorage.setItem("userToken", action.payload.token);
+        state.role = action.payload.role;
       })
       .addCase(loginUser.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.payload || action.error.message;
+        state.error = action.payload;
       });
   },
 });
 
-// ✅ Export the logout action
-export const { logoutUser } = UserSlice.actions;
-
-// ✅ Export the reducer
-export default UserSlice.reducer;
+export const { logoutUser } = userSlice.actions;
+export default userSlice.reducer;

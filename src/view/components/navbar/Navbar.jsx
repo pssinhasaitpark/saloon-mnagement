@@ -13,7 +13,8 @@ const Navbar = ({ setShowSearchPopup }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const location = useSelector((state) => state.search.location);
-  const user = useSelector((state) => state.user.user);
+  const user = localStorage.getItem("userrole");
+
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const currentLocation = useLocation();
