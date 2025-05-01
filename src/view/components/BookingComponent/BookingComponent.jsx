@@ -557,7 +557,10 @@ function BookingComponent({ openDialog, setopenDialog, id }) {
             >
               Services:
             </label>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+            <div
+              className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2"
+              style={{ maxHeight: "200px", overflowY: "auto" }} // Add fixed height and scroll
+            >
               {storeServices && storeServices.length > 0 ? (
                 storeServices.map((service) => (
                   <div key={service._id} className="flex items-center">
