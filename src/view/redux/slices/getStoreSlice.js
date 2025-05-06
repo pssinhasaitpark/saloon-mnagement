@@ -28,7 +28,7 @@ export const fetchStoreById = createAsyncThunk(
   async (id, thunkAPI) => {
     try {
       const res = await axios.get(`/store/by-id?id=${id}`);
-      console.log("res:", res);
+      // console.log("res:", res);
 
       return res.data.data; // Assuming the response structure is similar
     } catch (err) {
