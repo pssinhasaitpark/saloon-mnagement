@@ -8,6 +8,8 @@ import serviceReducer from "./slices/serviceslice";
 import staffReducer from "./slices/staffSlice";
 import bookingReducer from "./slices/bookingSlice";
 import storesReducer from "./slices/getStoreSlice";
+import galleryReducer from "./slices/gallerySlice";
+import reviewReducer from "./slices/reviewSlice";
 const store = configureStore({
   reducer: {
     search: searchReducer,
@@ -19,6 +21,8 @@ const store = configureStore({
     Staff: staffReducer,
     booking: bookingReducer,
     stores: storesReducer,
+    gallery: galleryReducer,
+    review: reviewReducer,
   },
 });
 
